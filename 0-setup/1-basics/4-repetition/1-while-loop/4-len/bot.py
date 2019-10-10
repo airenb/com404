@@ -1,6 +1,9 @@
 print("Please enter a phrase:")
-bop = 0
-#print bop inplace of characters 
-phrase = len(input())
+response = len(input())
 
-print(" bop"* phrase)
+reply = 0
+
+while( reply< response):
+    print("bop", end =" ")
+    #end keeps it on the same line 
+    reply = reply + 1 
