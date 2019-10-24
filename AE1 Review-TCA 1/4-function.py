@@ -1,18 +1,20 @@
-print("I wonder what is in my suitcase...")
-
-
 #defining function 
-def suitcase (item):
+def suitcase (item_suitcase):
     #calls
-    if (item("toothbrush")):
+    if (item_suitcase== "toothbrush"):
         print("A toothbrush. Well, got to have clean teeth!")
-    elif(item("spidey suit")):
+
+    elif(item_suitcase =="spidey suit"):
         print("My Spidey suit! I won't be needing this. I am on holiday.")
-    else():
+
+    else:
         print("An unexpected item! It could be useful.")
     
-print("")
+print("Wonder whats in my suitcase... ")
 #calls for function 
-item("toothbrush")
-item("spidey suit")
-item()
+suitcase("toothbrush")
+
+print("")
+print("wonder whats in my suitcase")
+#calls for function 
+suitcase("spidey suit")
