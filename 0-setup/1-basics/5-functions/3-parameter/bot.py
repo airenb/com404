@@ -1,3 +1,4 @@
+# define the function 
 def escape_by(plan):
     if(plan == "jumping over"):
         print("we cannot escape that way! the boulder is too big! ")
@@ -8,6 +9,7 @@ def escape_by(plan):
     else:
         print("we cannot escape that way! the boulder is in the way!")
 
-    escape_by("jumping over")
-    escape_by("running around")
-    escape_by("going deeper")
+# call to functions 
+escape_by("jumping over")
+escape_by("running around")
+escape_by("going deeper")

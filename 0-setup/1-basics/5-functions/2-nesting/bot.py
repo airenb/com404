@@ -9,4 +9,3 @@ def identify():
 
 #call function 
 identify()
-identify()
