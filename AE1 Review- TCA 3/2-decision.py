@@ -1,6 +1,6 @@
 print("Learn the steps of the 5 sequence tango.")
 print("What step do you wish to learn?")
-steps =int(input())
+steps = input()
 
 if(steps == "1"):
     print("Leader takes a step back.")
