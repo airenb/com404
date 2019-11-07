@@ -2,33 +2,31 @@ def run():
     print("type a message")
     message = input()
     print(" choose: under, over, both, grid")
+    chosen = input()
 
-chosen = input()
+    if (chosen == "under"):
+        print(" Halloween")
+        print(" - - - - - - - - -")
+        print( message )
 
-def under (message):
-    print(" Halloween")
-    print(" - - - - - - - - -")
-    print( message )
+    elif(chosen == "over"):
+        print( message )
+        print(" - - - - - - - - -")
+        print(" Halloween")
 
-def over (message):
-    print( message )
-    print(" - - - - - - - - -")
-    print(" Halloween")
+    elif(chosen == "both"):
+        print(" Halloween")
+        print(" - - - - - - - - -")
+        print( message )
+        print(" - - - - - - - - -")
+        print(" Halloween")
 
-def both (message):
-    print(" Halloween")
-    print(" - - - - - - - - -")
-    print( message )
-    print(" - - - - - - - - -")
-    print(" Halloween")
-
-def grid( message):
-    if(len(message)>5):
-        for row in range (0, len(message), 1):
-            for collum in range (0, len(message), 1):
-                print(collum, "|", end="")
-            print()
-
+    elif (chosen == "grid"):
+        if(len(message)>5):
+            for row in range (0, len(message), 1):
+                for collum in range (0, len(message), 1):
+                    print(collum, "|", end="")
+        print()
 
 run()
 

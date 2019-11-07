@@ -1,12 +1,14 @@
-print("How many miles must I travel before I reach the secret base?")
-miles = int(input())
+print("how many miles must i travel before i reach the secret base?")
+max_miles = int(input())
 
-print("I will count the miles...")
+min_miles = 0
 
-#loop
-min_miles = 0 
-while(miles>min_miles):
-    print("i have", miles, "to go before i reach base" )
-    miles = miles - 1
-print("I have arrived at the secret headquarters of the MIB!")
-print("It is time to sneak in.")
+print("i will count the miles...")
+
+
+while(max_miles > min_miles):
+    max_miles = max_miles - 1 
+    print("i have", max_miles, "miles to go beofre i reach the base")
+
+print("i have arrived at the secret headquarters of the MIB")
+print(" it is time to sneak in ")

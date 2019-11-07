@@ -1,3 +1,4 @@
-print("By what name are you known?")
+print("by what name are you known?")
 name = input()
-print("Live long and prospe", name ,)
+
+print("Live long and prosper" , name, )
